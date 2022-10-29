@@ -1,0 +1,18 @@
+#include <iostream>
+
+#include <math.h>
+
+using namespace std;
+
+int main()
+
+{
+
+    double a = 123, b = 0;
+
+    double result = a/b;
+
+    string isInfinite = isinf(result) ? "is" : "is not";
+
+    cout << "result=" << result << " " << isInfinite << " infinity" << endl;
+
